@@ -10,6 +10,7 @@ from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from keras.utils import np_utils
 from PIL import Image
 
+
 # 加载数据集,包括训练集和测试集
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
